@@ -1,9 +1,36 @@
 /* Corey Baker 2014 */
 
+#banner {
+	height:4em;
+}
+
+.bg-text {
+	color:coral;
+}
+
 #wed-Picture {
 	width: 100%;
 }
 
 #wed-Picture img {
 	width:100%;
+}
+
+.date:before  {
+	content:"*";
+	padding-right: 15px;
+}
+
+.date:after {
+	content: "*";
+	padding-left:15px;
+}
+
+/* Map styling */
+
+#mapDiv {
+	width:100%;
+	margin:0;
+	padding:0;
+	height:12em;
 }
