@@ -1,11 +1,17 @@
 /* Corey Baker 2014 */
 
+html, body {
+	background:#000000;
+}
+
 #banner {
 	height:4em;
 }
 
-.bg-text {
-	color:coral;
+/* Headings and Headers */
+
+.date,.gen-activities {
+	color:#fff;
 }
 
 #wed-Picture {
@@ -16,19 +22,16 @@
 	width:100%;
 }
 
-.date:before  {
-	content:"*";
-	padding-right: 15px;
+
+/* rows styling */
+.row, #mapDiv {
+	margin-top:4em;
 }
 
-.date:after {
-	content: "*";
-	padding-left:15px;
-}
 
 /* Map styling */
 
-#mapDiv {
+#mapWrapper, #mapDiv {
 	width:100%;
 	margin:0;
 	padding:0;
