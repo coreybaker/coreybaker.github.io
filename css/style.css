@@ -10,7 +10,7 @@ html, body {
 
 /* Headings and Headers */
 
-.date,.gen-activities {
+.date,.gen-activities, .wed-site {
 	color:#fff;
 }
 
@@ -22,12 +22,24 @@ html, body {
 	width:100%;
 }
 
+#heart {
+	color:#E84F53;
+}
+
 
 /* rows styling */
 .row, #mapDiv {
 	margin-top:4em;
 }
 
+/* link styles */
+.where-heading a {
+	color:#E84F53;
+}
+
+.where-heading a:hover {
+	color:#fff;
+}
 
 /* Map styling */
 
@@ -35,5 +47,5 @@ html, body {
 	width:100%;
 	margin:0;
 	padding:0;
-	height:12em;
+	height:16em;
 }

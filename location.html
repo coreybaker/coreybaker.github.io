@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="http://js.arcgis.com/3.8/js/esri/css/esri.css">
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="http://js.arcgis.com/3.8/"></script>
+    <script src="js/maps.js"></script>
+  </head>
+  <body>
+     <!-- Navigation Bar || not much to navigate --> 
+   <nav class="top-bar" data-topbar>
+     <ul class="title-area">
+    <li class="name">
+      <h1><a href="index.html">Christine Bankes & Erick Baker</a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="has-dropdown">
+        <a href="#">Menu</a>
+        <ul class="dropdown">
+          <li><a href="location.html">Wedding Location</a></li>
+           <li><a href="#">Pictures</a></li>
+            <li><a href="#">Registry</a></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+ <!-- contains everything needed for the topbar -->
+   </nav>
+
+   <div class="row">
+        <div class="small-12 columns">
+          <h1 class="text-center where-heading"><a href="http://www.marriott.com/hotels/travel/bmimc-bloomington-normal-marriott-hotel-and-conference-center/" target="_blank">The Marriott Hotel <span>|</span> Normal, IL 61761</a></h1>
+        </div>
+      </div>
+
+         <!-- Insert the map like you want -->
+    <div id="mapWrapper">
+      <div id="mapDiv"></div>
+    </div>
+
+
+
+
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
