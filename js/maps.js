@@ -1,6 +1,8 @@
-require(["esri/map", "esri/symbols/PictureMarkerSymbol","dojo/domReady!"], 
 
-function(Map,PMS){
+
+require(["esri/map", "esri/geometry/Point","dojo/domReady!"], 
+
+function(Map,Point){
 
 
 var map = new Map("mapDiv", {
@@ -9,11 +11,11 @@ var map = new Map("mapDiv", {
 	basemap: "osm"
 
 
+
+
 }); //end map creation
 
-var pinPoint = new PMS({
-
-});
+var point = new Point( {"x": -88.98, "y": 40.509, "spatialReference": {"wkid": 4326 } });
 
 
 

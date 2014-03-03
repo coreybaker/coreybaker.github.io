@@ -65,6 +65,13 @@ html, body {
 	text-decoration: underline;
 }
 
+/* lists */
+
+.reg-list li {
+	list-style-type: none;	
+
+}
+
 /* Map styling */
 
 #mapWrapper, #mapDiv {
