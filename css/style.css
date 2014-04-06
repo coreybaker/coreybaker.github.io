@@ -2,6 +2,7 @@
 
 html, body {
 	background:#000000;
+	background:#191919;
 }
 
 #banner {
@@ -23,6 +24,17 @@ html, body {
 }
 
 #heart {
+	color:#E84F53;
+}
+
+/* Paragraphs*/
+
+ p.text-center {
+color:#E3D5E5;
+}
+
+#start_time {
+	font-weight: bold;
 	color:#E84F53;
 }
 
@@ -78,5 +90,5 @@ html, body {
 	width:100%;
 	margin:0;
 	padding:0;
-	height:16em;
+	height:20em;
 }

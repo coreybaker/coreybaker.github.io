@@ -10,7 +10,7 @@ function(Map, arcgisUtils){
 
 arcgisUtils.createMap(WEBMAPID, "mapDiv",{
 	mapOptions: {
-		slider:false,
+		slider:true,
 		wrapAround180: false
 	},
 }).then(function(response){
