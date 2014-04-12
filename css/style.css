@@ -15,12 +15,23 @@ html, body {
 	color:#fff;
 }
 
+/* Main Graphic Styling */
+
 #wed-Picture {
 	width: 100%;
 }
 
 #wed-Picture img {
 	width:100%;
+}
+
+@media all and (min-width:900px) {
+
+#wed-Picture {
+	width:60%;
+	margin:0 auto;
+}
+
 }
 
 #heart {
@@ -88,7 +99,20 @@ color:#E3D5E5;
 
 #mapWrapper, #mapDiv {
 	width:100%;
-	margin:0;
 	padding:0;
+	margin:0;
 	height:20em;
+}
+
+@media all and (min-width:900px) {
+
+#mapWrapper, #mapDiv {
+width:80%;
+margin:0 auto;
+}
+
+}
+
+image:hover {
+	cursor:pointer;
 }
