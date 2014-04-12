@@ -88,12 +88,23 @@ color:#E3D5E5;
 	text-decoration: underline;
 }
 
+.reg-list li a, .act-list li a {
+	color:#E84F53;
+}
+
+.reg-list li a:hover, .act-list li a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+
 /* lists */
 
-.reg-list li {
+.reg-list li, .act-list li {
 	list-style-type: none;	
 
 }
+
+
 
 /* Map styling */
 
