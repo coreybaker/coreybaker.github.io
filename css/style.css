@@ -40,13 +40,17 @@ html, body {
 
 /* Paragraphs*/
 
- p.text-center {
+ p.text-center, p.text-left {
 color:#E3D5E5;
 }
 
 #start_time {
 	font-weight: bold;
 	color:#E84F53;
+}
+
+#arrive_time {
+	color:#636363;
 }
 
 
@@ -96,6 +100,14 @@ color:#E3D5E5;
 	color:#fff;
 	text-decoration:underline;
 }
+
+.reg-list .reg_link {
+	padding-bottom:15px;
+	font-size:1.75em;
+}
+
+
+
 
 /* lists */
 
