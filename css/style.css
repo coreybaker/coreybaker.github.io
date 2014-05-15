@@ -3,8 +3,12 @@
 
 /* Main Content */
 
+.top-row, .wod-row-recent {
+	margin-top: 150px;
+}
+
 .top-row {
-	margin-top: 200px;
+	background:#0004;
 }
 
 .message {
@@ -13,4 +17,8 @@
 
  #eight-four {
 	text-decoration: underline;
+}
+
+.wod-type-title {
+	margin-bottom: 10px;
 }
