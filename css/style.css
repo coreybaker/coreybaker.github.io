@@ -3,17 +3,38 @@
 
 /* Main Content */
 
+html, body {
+	font-family: open-sans, sans-serif; /* Adobe Edge Font - Opens Sans */
+	}
+
+.top-bar {
+	margin-bottom: 0;
+}
+
+.main-banner {
+	background:#ADABBF;
+	background: #349DFF;
+	height:33em;
+	margin:0;
+	padding:0;
+}
+
+.message {
+	margin:0;
+	padding:0;
+	text-transform: uppercase;
+	color:snow;
+	padding-top:4.75em;
+	}
+
 .top-row, .wod-row-recent {
-	margin-top: 150px;
+	margin-top:2em;
 }
 
 .top-row {
 	background:#0004;
 }
 
-.message {
-	text-transform: uppercase;
-}
 
  #eight-four {
 	text-decoration: underline;
