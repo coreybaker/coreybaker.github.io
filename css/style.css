@@ -27,7 +27,7 @@ html, body {
 	padding-top:4.75em;
 	}
 
-.top-row, .wod-row-recent {
+.top-row,.wod {
 	margin-top:2em;
 }
 
@@ -35,6 +35,10 @@ html, body {
 	background:#0004;
 }
 
+.daily-bread {
+	padding-bottom: 1.25em;
+	font-weight: 800;
+}
 
  #eight-four {
 	text-decoration: underline;
